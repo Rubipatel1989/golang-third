@@ -23,5 +23,5 @@ go.work.sum
 
 # env file
 .env
-
-storage/storage.db
+# Storage File [Comment in future]
+## storage
