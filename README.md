@@ -23,7 +23,7 @@
 
 # tutorial link
 https://www.youtube.com/watch?v=OGhQhFKvMiM&list=PPSV&t=750s
-01:25:28
+01:43:54
 
 ## Start server
  go run ./cmd/students-api/main.go -config config/local.yaml
