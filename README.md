@@ -22,14 +22,15 @@
 
 
 # tutorial link
-https://www.youtube.com/watch?v=_utEjVtOwFE&list=PLzjZaW71kMwSEVpdbHPr0nPo5zdzbDulm&index=13
-00:10
+https://www.youtube.com/watch?v=OGhQhFKvMiM&list=PPSV&t=750s
+01:25:28
 
 ## Start server
  go run ./cmd/students-api/main.go -config config/local.yaml
 
-https://www.youtube.com/watch?v=OGhQhFKvMiM&t=6218s
- 2:03:01
+## For Clean Env execute below commond in root
+go get -u github.com/ilyakaznacheev/cleanenv
+go get github.com/go-playground/validator/v10
 
 
  ## Postman
