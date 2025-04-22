@@ -31,6 +31,7 @@ https://www.youtube.com/watch?v=OGhQhFKvMiM&list=PPSV&t=750s
 ## For Clean Env execute below commond in root
 go get -u github.com/ilyakaznacheev/cleanenv
 go get github.com/go-playground/validator/v10
+go get github.com/mattn/go-sqlite3
 
 
  ## Postman

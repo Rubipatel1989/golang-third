@@ -4,9 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"goLangFirst/internal/config"
-	"goLangFirst/internal/types"
-
+	"github.com/Rubipatel1989/golang-third/internal/config"
+	"github.com/Rubipatel1989/golang-third/internal/types"
 	_ "github.com/mattn/go-sqlite3"
 )
 
