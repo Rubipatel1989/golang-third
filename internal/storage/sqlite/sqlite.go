@@ -58,9 +58,9 @@ func (s *Sqlite) GetStudentById(id int64) (types.Student, error) {
 	err = stmt.QueryRow(id).Scan(&student.Id, &student.Name, &student.Email, &student.Age)
 	if err != nil {
 		if err == sql.ErrNoRows {
-			return types.Student{}, fmt.Errorf("Student with ID %d not found", id)
+			return types.Student{}, fmt.Errorf("student with ID %d not found", id)
 		}
-		return types.Student{}, fmt.Errorf("Query failed: %w", err)
+		return types.Student{}, fmt.Errorf("query failed: %w", err)
 	}
 	return student, nil
 }
