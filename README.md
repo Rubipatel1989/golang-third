@@ -29,9 +29,9 @@ https://www.youtube.com/watch?v=OGhQhFKvMiM&list=PPSV&t=750s
  go run ./cmd/students-api/main.go -config config/local.yaml
 
 ## For Clean Env execute below commond in root
-go get -u github.com/ilyakaznacheev/cleanenv
-go get github.com/go-playground/validator/v10
-go get github.com/mattn/go-sqlite3
+1. go get -u github.com/ilyakaznacheev/cleanenv
+2. go get github.com/go-playground/validator/v10
+3. go get github.com/mattn/go-sqlite3
 
 
  ## Postman
